@@ -14,6 +14,8 @@ int main(void)
          << astronomyUnitConvert(lightYears)
          << " astronomical units."
          << endl;
+
+    return 0;
 }
 
 float astronomyUnitConvert(float lightYears)

@@ -13,6 +13,8 @@ int main(void)
     cout << "Enter the number of minutes: ";
     cin >> minutes;
     toTime(hours, minutes);
+
+    return 0;
 }
 
 void toTime(int hours, int minutes)

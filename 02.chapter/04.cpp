@@ -8,4 +8,6 @@ int main(void)
     cout << "Enter your age: " << endl;
     cin >> age;
     cout << "it include " << age * 12 << " months." << endl;
+
+    return 0;
 }
