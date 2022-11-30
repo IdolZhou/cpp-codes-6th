@@ -29,11 +29,11 @@ float calcTax(int money)
     {
         // cout << "no taxes are charged" << endl;
     }
-    else if (5001 <= money && money < 15000)
+    else if (money < 15000)
     {
         result = (money - 5000) * 0.1;
     }
-    else if (15001 <= money && money < 35000)
+    else if (money < 35000)
     {
         result = (money - 15000) * 0.15 + (15000 - 5000) * 0.1;
     }
