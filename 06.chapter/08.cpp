@@ -6,7 +6,6 @@ using namespace std;
 
 int main(void)
 {
-
     ifstream inFile;
     string filename = "";
     char ch;
@@ -29,6 +28,5 @@ int main(void)
 
     cout << filename << " has " << count << " characters." << endl;
     inFile.close();
-    inFile.clear();
     return 0;
 }
