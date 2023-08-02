@@ -1,4 +1,11 @@
-// calling.cpp -- definding, prototyping, and calling a function
+/**
+ * 📄FileName   : calling.cpp 7.1
+ * ⏱CreateDate : 2023/08/02 21:02:09
+ * 🧑Author     : master
+ * 👆Version    : 1.0
+ * 💭Description: definding, prototyping, and calling a function
+ */
+
 #include <iostream>
 
 void simple(); // function prototype
@@ -14,6 +21,7 @@ int main()
     return 0;
 }
 
+// function definition
 void simple()
 {
     using namespace std;

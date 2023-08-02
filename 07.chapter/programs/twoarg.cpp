@@ -1,4 +1,11 @@
-// twoarg.cpp -- a function with 2 arguments
+/**
+ * 📄FileName   : twoarg.cpp 7.4
+ * ⏱CreateDate : 2023/08/02 21:28:57
+ * 🧑Author     : master
+ * 👆Version    : 1.0
+ * 💭Description: a function with 2 arguments
+ */
+
 #include <iostream>
 
 using namespace std;
